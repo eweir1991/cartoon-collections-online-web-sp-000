@@ -1,6 +1,6 @@
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-
+assorted_words = ["two", "go", "industrious", "bop"]
 
 def roll_call_dwarves(array)# code an argument here
   i = 0#
@@ -22,6 +22,7 @@ def summon_captain_planet(array)# code an argument here
   end
   new_array
 end
+summon_captain_planet(planeteer_calls)
 #=================================================================
 def long_planeteer_calls(array)
   i = 0 
@@ -33,7 +34,7 @@ def long_planeteer_calls(array)
   end
 end
 
-long_planeteer_calls(calls_long)
+long_planeteer_calls(assorted_words)
 
 def find_the_cheese# code an argument here
   # the array below is here to help
