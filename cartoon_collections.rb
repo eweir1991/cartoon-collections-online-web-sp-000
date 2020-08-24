@@ -24,9 +24,9 @@ def summon_captain_planet(array)# code an argument here
 end
 summon_captain_planet(planeteer_calls)
 #=================================================================
-def long_planeteer_calls(array)
+def long_planeteer_calls(assorted_words)
   i = 0 
-  if array.any? {|i| i.length > 4}
+  if assorted_words.any? {|i| i.length > 4}
     return true
   else
     return false
